@@ -1,19 +1,37 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>Exemple de page HTML avec PHP</title>
+    <meta charset="UTF-8">
+    <title>Mon site MVC</title>
+    <meta name="description" content="mon super site en MVC from scratch">
+    <link rel="stylesheet" href="../assets/dist/main.css">
 </head>
 
 <body>
+   <header>
+    <nav>
+        <ul>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="/contact">Contact</a></li>
+                <li><a href="/views/security/login">Se connecter</a></li>
+                <li><a href="/s-inscrire">S'inscrire</a></li>
+        </ul>
+    </nav>
+</header>
+    <!-- la vue  -->
 
-    <h1>Bienvenue sur ma page PHP</h1>
-
-    <?php
-    // Code PHP
-    $message = "Bonjour, je suis généré par PHP !";
-    echo $message;
-  ?>
-
+    <!-- footer -->
+    <footer>
+    <div class="container">
+        <ul>
+            <li><a href="#">Nous contacter</a></li>
+            <li><a href="#">Mentions légales</a></li>
+            <li><a href="#">Conditions générales de vente</a></li>
+            <li><a href="/">FoodPress</span></a></li>
+        </ul>
+    </div>
+</footer>
 </body>
 
 </html>
